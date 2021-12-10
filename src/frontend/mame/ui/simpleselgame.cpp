@@ -286,7 +286,7 @@ void simple_menu_select_game::populate(float &customtop, float &custombottom)
 	else
 	{
 		item_append(menu_item_type::SEPARATOR);
-		item_append(_("Return to Previous Menu"), 0, nullptr);
+		item_append(_("返回上级菜单"), 0, nullptr);
 	}
 
 	// configure the custom rendering
