@@ -1253,7 +1253,7 @@ void menu::do_handle()
 	{
 		// add an item to return - this is a really hacky way of doing this
 		if (m_needs_prev_menu_item)
-			item_append(_("Return to Previous Menu"), 0, nullptr);
+			item_append(_("返回上级菜单"), 0, nullptr);
 
 		// let implementation add other items
 		populate(m_customtop, m_custombottom);
